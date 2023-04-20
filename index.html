@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Техника дүкені</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header__wrap">
+        <!-- navbar -->
+        <div>
+          <nav id="main-nav" class="tabs">
+            <a class="tabs__btn tabs__btn-active" href="#tab-1">Басты бет</a>
+            <a class="tabs__btn" href="#tab-2" id="products">Тауарлар</a>
+            <a class="tabs__btn" href="#tab-3">Біз туралы</a>
+          </nav>
+        </div>
+
+
+        <div class="header__cart-btn">
+          <span class="header__cart-items">0</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="main" id="main-page">
+      <!-- tabs intro  1 -->
+      <div class="main__tabs-content" id="tab-1">
+        <section class="intro">
+          <div class="intro__wrap">
+            <h1 class="intro__title">Техника дукені</h1>
+            <h3 class="intro__text">Ұялы телефондар, ноутбуктар</h3>
+            <a href="#" class="intro__btn tabs__btn">Сатып алу</a>
+          </div>
+        </section>
+
+        <section class="featured">
+          <h2 class="featured__title">
+            <span class="featured__span">/</span>Тауарлар
+          </h2>
+          <ul class="featured__list"></ul>
+
+          <a href="#" class="featured__btn tabs__btn">Барлық тауарлар</a>
+        </section>
+      </div>
+
+      <!-- tabs content  2 -->
+      <div class="main__tabs-content" id="tab-2">
+        <div class="main__padge">
+          <h3 class="main__title">
+            Басты бет<span class="main__span">/</span>Тауарлар
+          </h3>
+        </div>
+        <section class="products">
+          <div class="filters">
+            <div class="filters__container">
+              <form class="form">
+                <input
+                  class="form__input"
+                />
+              </form>
+
+              <h4 class="brands">Түрлері</h4>
+              <div class="brands__btns">
+                <button class="brands__btn" data-filter="all">Барлығы</button>
+                <button class="brands__btn" data-filter="ikea">Смартфондар</button>
+                <button class="brands__btn" data-filter="marcos">Ноутбуктер</button>
+                <button class="brands__btn" data-filter="caressa">
+                  Теледидарлар
+                </button>
+                <button class="brands__btn" data-filter="liddy">Құлаққаптар</button>
+              </div>
+
+              <h4 class="price">Баға</h4>
+              <form class="form">
+                <input
+                  type="range"
+                  class="form__range"
+                  min="25"
+                  value="25"
+                  max="210"
+                />
+              </form>
+            </div>
+          </div>
+
+          <ul class="products__list"></ul>
+        </section>
+      </div>
+
+      <!-- tabs about 3 -->
+      <div class="main__tabs-content" id="tab-3">
+        <div class="main__padge">
+          <h3 class="main__title">
+            Басты бет<span class="main__span">/</span>Біз туралы
+          </h3>
+        </div>
+
+        <section class="about">
+          <h2 class="about__title">
+            <span class="about__span">/</span> Біздің тарихымыз
+          </h2>
+
+          <p class="about__text">
+            Біздің дүкендер ең соңғы сауда технологияларын ескере отырып жасалған және тұтынушыларға қызмет көрсетудің әлемдік стандарттарына толығымен сәйкес келеді. Әрбір дүкенде эмоционалды және баға аймақтары, тауарлар мен қызметтер туралы ақпараттандырудың анық және түсінікті жүйесі, сауда алаңы бойымен оңай оқылатын қозғалыс бағыты, тауарларға ыңғайлы қолжетімділік және кез келген өнімді сынау мүмкіндігі бар. Клиенттерге қосымша қызметтердің кең спектрі, соның ішінде тұтынушылық несиелеудің әртүрлі бағдарламалары ұсынылады. <br><br>
+
+            Біздің дүкен сауда портфолиосында 700-ден астам жетекші әлемдік брендтер бар: Sony, Panasonic, Samsung, LG, Apple, Philips, Nokia, Canon, Nikon, Fujitsu, Bosch, Electrolux, Indesit, Hotpoint-Ariston, Gorenje, Hansa, Zigmund & Shtain, Whirlpool , Beko, Termex, Moulinex, Tefal, Rowenta және т.б.
+              <br><br>
+            Компанияның сауда желісі Қазақстанның бүкіл аумағын қамтиды. Біздің дүкендер келесі қалаларда жұмыс істейді: Астана, Алматы, Ақтау, Ақтөбе, Атырау, Балқаш, Жезқазған, Жаңаөзен, Қарағанды, Қапшағай, Көкшетау, Қостанай, Қызылорда, Құлсары, Павлодар, Петропавл, Рудный, Семей, Тарған, Сағат, С. Талғар, Теміртау, Түркістан, Өскемен, Орал, Шымкент және Екібастұз.
+          </p>
+        </section>
+      </div>
+
+      <!-- cart -->
+      <section class="cart-overlay">
+        <div class="cart">
+          <button class="cart__close-btn"></button>
+          <div>
+            <h3 class="cart__title">Себет</h3>
+          </div>
+
+          <div class="cart__content"></div>
+
+          <div class="cart__footer">
+            <h3 class="cart__title">
+              Төлемге : <span class="cart__total"></span> тг
+            </h3>
+            <button class="cart__checkout-btn">Сатып алу</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./scripts/router.js"></script>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

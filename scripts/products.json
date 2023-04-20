@@ -1,0 +1,113 @@
+{
+    "items": [
+      {
+        "sys": { "id": "01i" },
+        "fields": {
+        "category": "ikea",
+        "title": "IPHONE 14 PRO",
+        "price": 699990,
+        "image": { "url": "images/ikea-1.png" }
+        }
+      },
+      {
+        "sys": { "id": "02i" },
+        "fields": {
+    "category": "ikea",
+    "title": "Dining table set",
+    "price": 149.99,
+          "image": { "url": "images/ikea-2.jpg" } 
+        }
+      },
+      {
+        "sys": { "id": "03i" },
+        "fields": {
+        "category": "ikea",
+        "title": "Wooden chair",
+        "price": 34.99,
+          "image": { "url": "images/ikea-3.jpg" }
+        }
+      },
+      {
+        "sys": { "id": "01m" },
+        "fields": {
+        "category": "marcos",
+        "title": "Dining table set",
+        "price": 199.99,
+          "image": { "url": "images/marcos-1.jpg" }
+        }
+      },
+      {
+        "sys": { "id": "02m" },
+        "fields": {
+    "category": "marcos",
+    "title": "Corner sofa",
+    "price": 179.99,
+          "image":{ "url": ".images/marcos-2.jpg" }
+        }
+      },
+      {
+        "sys": { "id": "03m" },
+        "fields": {
+    "category": "marcos",
+    "title": "TV Wall - living room",
+    "price": 34.99,
+          "image": { "url": "images/marcos-3.jpg" }
+        }
+      },
+      {
+        "sys": { "id": "01c" },
+        "fields": {
+    "category": "caressa",
+    "title": "King Bed",
+    "price": 99.99,
+          "image": { "url": "images/caressa-1.jpg" }
+        }
+      },
+      {
+        "sys": { "id": "02c" },
+        "fields": {
+    "category": "caressa",
+    "title": "L-shape sofa",
+    "price": 79.99,
+          "image": { "url":"images/caressa-2.jpg" }
+        }
+      },
+      {
+        "sys": { "id": "03c" },
+        "fields": {
+    "category": "caressa",
+    "title": "Cozy armchair set",
+    "price": 34.99,
+          "image": { "url":"images/caressa-3.jpg" }
+        }
+      },
+      {
+        "sys": { "id": "01l" },
+        "fields": {
+    "category": "liddy",
+    "title": "Cozy sofa",
+    "price": 69.99,
+          "image": { "url":"images/liddy-1.jpg" }
+        }
+      },
+      {
+        "sys": { "id": "02l" },
+        "fields": {
+    "category": "liddy",
+    "title": "TV bench",
+    "price": 29.99,
+          "image": { "url":"images/liddy-2.jpg" }
+        }
+      },
+      {
+        "sys": { "id": "03l" },
+        "fields": {
+    "category": "liddy",
+    "title": "Bedroom set",
+    "price": 129.99,
+          "image": { "url":"images/liddy-3.jpg" }
+        }
+      }
+      
+    ]
+  }
